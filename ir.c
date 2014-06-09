@@ -51,7 +51,7 @@ static int read_codes()
 	struct timespec t1, t2 = { 0 };
 
 	printf("Waiting for codes, press <Ctrl+C> to quit. Wait > 1s before each button press.\n");
-	printf("NOTE: You may need to receive the same code a few times before obtaining a reliable code.\n");
+	printf("NOTE: You may need to receive the same code a few times before obtaining a reliable code.\n\n");
 
 	while (1) {
 		read(fd, &i, sizeof(i));
