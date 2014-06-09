@@ -16,3 +16,5 @@ https://www.sparkfun.com/products/10266
 
 To send codes I use the IR LED kit:
 https://www.sparkfun.com/products/10732
+
+NOTE: The codes are raw codes - meaning they may need to be manually modified and/or stipped before they become useful to send back to the device.
